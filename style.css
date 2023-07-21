@@ -1,0 +1,144 @@
+:root {
+    /* Colores */
+    --naranja: #fc7300;
+    --verdeAgua: #1f8a70;
+    --azulMarino: #00425a;
+    --negro: #181823;
+    --blanco: #eff5f5;
+
+    /* Tipografias */
+    --TPrincipal: 'Poppins', sans-serif;
+    --TSecundaria: 'Belanosima', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--blanco);
+    color: var(--negro);
+    font-family: var(--TPrincipal);
+    font-size: .9rem;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--TPrincipal);
+    font-weight: 600;
+    color: var(--naranja);
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* PORTADA */
+.imagen_100 {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 2.3rem;
+}
+
+.titulo-portada {
+    text-align: center;
+    font-family: var(--TSecundaria);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.contenedor {
+    background-color: var(--blanco);
+    text-align: center;
+}
+
+.titulo {
+    padding: 3.5rem .5rem .5rem;
+    color: var(--azulMarino);
+}
+
+.parrafo {
+    padding: 1rem 1.5rem;
+    text-align: left;
+}
+
+.contenedor-tarjetas {
+    display: flex;    
+    padding: 1rem;
+    gap: .8rem;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+/*/// PROPUESTA EDUCATIVA ///*/
+.sec-prop_educativa {
+    padding: 1rem;
+    background-color: var(--blanco);
+    color: var(--azulMarino);
+}
+
+.prop_educativa-contenedor {
+    margin-top: 2.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.prop_educativa-card {
+    width: 130px;
+    /* height: 130px; */
+    padding: .5rem;
+    background-color: var(--naranja);
+    margin-bottom: 2rem;
+    color: var(--azulMarino);
+    font-weight: bold;
+}
+
+.prop_educativa_img {
+    width: 36px;
+}
+
+/* ULTIMAS NOTICIAS */
+.ult_noticias-contenedor {
+    margin-top: 2.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ult_noticias-card {
+    width: 290px;
+    padding: 1rem .5rem;
+    background-color: var(--naranja);
+    margin-bottom: 2rem;
+    color: var(--azulMarino);
+    /* font-weight: bold; */
+}
+
+/* FOOTER */
+.footer-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-card {
+    width: auto;
+    padding: 1rem .5rem;
+    color: var(--azulMarino);
+}
