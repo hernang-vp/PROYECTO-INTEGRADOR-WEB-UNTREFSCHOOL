@@ -1,0 +1,49 @@
+@import url(style.css);
+
+/*/// SECCIÓN CONTACTO ///*/
+.formcontacto {
+    padding: 2.5rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formcontacto__contacto {
+    display: flex;
+    background: var(--blanco);
+    max-width: 650px;
+}
+
+.formcontacto__title {
+    margin-bottom: 2rem;
+}
+
+.formcontacto__form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    max-width: 650px;
+}
+
+.formcontacto__input {
+    margin-bottom: .5rem;
+    height: 2rem;
+    padding: .5rem;
+    font-family: var(--TPrincipal);
+    width: 100%;
+}
+.formcontacto__mensaje{
+    height: 7rem;
+    outline: none;
+}
+.formcontacto__btn {
+    height: 2.5rem;
+    background-color: var(--verdeAgua);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+.volver-btn {
+    margin-top: 3rem;
+}

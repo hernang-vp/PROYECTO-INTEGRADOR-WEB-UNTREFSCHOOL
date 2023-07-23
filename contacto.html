@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página para UNTREF School">
+    <meta name="author" content="Hernán Vildoza Parra">
+    <title>UNTREF School - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- Sección de Contacto -->
+    <section class="formcontacto" id="contacto">
+        <div class="formcontacto__contacto">            
+            <div>
+                <h2 class="formcontacto__title">Contacto</h2>
+                <h3>¿Quiere contactarnos?</h3>
+                <h3>Complete el siguiente formulario y nos pondremos en contacto con
+                    usted lo antes posible. </h3>
+
+                <form action="https://formsubmit.co/hrn.g01@gmail.com" method="POST" class="formcontacto__form" id="form" name="form">
+                    <input class="formcontacto__input" id="nombre" type="text" name="nombre" placeholder="Nombre">
+                    <input class="formcontacto__input" id="email" type="email" name="email" placeholder="E-mail">
+                    <input class="formcontacto__input" id="asunto" type="text" name="asunto" placeholder="Asunto">
+                    <textarea class="formcontacto__input formcontacto__mensaje" id="mensaje" rows="5" cols="40" id="mensaje"
+                        name="mensaje" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="formcontacto__input formcontacto__btn">Enviar mensaje</button>
+                    <a href="index.html"><h4 class="volver-btn">Volver</h4></a>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
